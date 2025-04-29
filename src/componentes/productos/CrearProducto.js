@@ -29,7 +29,7 @@ function CreateProduct() {
 
         try {
             // Reemplaza con tu endpoint real
-            const response = await fetch('http://184.72.119.254/productos/crear', {
+            const response = await fetch('https://184.72.119.254/productos/crear', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
